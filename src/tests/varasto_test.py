@@ -83,6 +83,7 @@ class TestVarasto(unittest.TestCase):
 
         self.assertAlmostEqual(testi_tulos, 0)
 
+    # test local and remote repo error
     def test_ottaminen_maara_saldoa_suurempi_palauttaa_oikein(self):
         self.varasto = Varasto(10, 10)
 
