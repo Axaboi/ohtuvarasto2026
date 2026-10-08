@@ -90,7 +90,7 @@ class TestVarasto(unittest.TestCase):
 
         self.varasto.ota_varastosta(maara)
 
-        self.assertAlmostEqual(self.varasto.saldo, 100)
+        self.assertAlmostEqual(self.varasto.saldo, 0)
 
     def test_ottaminen_palauttaa_oikean_maaran(self):
         self.varasto.lisaa_varastoon(8)
